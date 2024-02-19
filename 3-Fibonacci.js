@@ -23,7 +23,6 @@ for (let i = 1; i <= 50; i++) {
         nextNumber = arrFibonacci[arrFibonacci.length - 1] + arrFibonacci[arrFibonacci.length - 2]
         arrFibonacci.push(nextNumber)
     }
-
-    console.log(arrFibonacci)
-
 }   
+
+console.table(arrFibonacci);
